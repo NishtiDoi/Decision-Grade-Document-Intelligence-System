@@ -1,0 +1,235 @@
+{
+  "obligations": [
+    {
+      "description": "Pay monthly rent of Rs. 25,000",
+      "responsible_party": "tenant",
+      "source_text": "That the Tenant shall pay to the Owner a monthly rent of Rs. 25,000/- (Rupees Twenty-Five Thousand Only)"
+    },
+    {
+      "description": "Pay rent on or before the 7th day of each month",
+      "responsible_party": "tenant",
+      "source_text": "The rent shall be paid on or before the 7th day of each month without fail"
+    },
+    {
+      "description": "Pay monthly maintenance charge of Rs. 3,000",
+      "responsible_party": "tenant",
+      "source_text": "That the Tenant shall pay to the Owner a monthly maintenance charge of Rs. 3,000/- towards the maintenance of Generator & Elevator, Salaries towards guards, Charges for Electricity Maintenance for Common Areas, Charges towards cleaning of Common Areas and towards maintaining the lawn"
+    },
+    {
+      "description": "Pay for electricity and water bills directly to authorities",
+      "responsible_party": "tenant",
+      "source_text": "the Tenant shall pay for the use of electricity and water as per bills received from the authorities concerned directly"
+    },
+    {
+      "description": "Pay security deposit of Rs. 1,50,000",
+      "responsible_party": "tenant",
+      "source_text": "The Tenant will pay to the Owner an interest-free refundable security deposit of Rs. 1,50,000/- (Rupees One Lakh Fifty Thousand Only)"
+    },
+    {
+      "description": "Refund security deposit after adjusting dues or damages",
+      "responsible_party": "landlord",
+      "source_text": "The said amount shall be refunded by the Owner to the Tenant at the time of handing over possession upon expiry or termination after adjusting any dues or cost towards damages"
+    },
+    {
+      "description": "Hand over fittings and fixtures in good working condition",
+      "responsible_party": "landlord",
+      "source_text": "all the sanitary, electrical and other fittings and fixtures and appliances in the premises shall be handed over from the Owner to the Tenant in good working condition"
+    },
+    {
+      "description": "Use premises for residential purposes only",
+      "responsible_party": "tenant",
+      "source_text": "the same shall be used for bonafide residential purposes only"
+    },
+    {
+      "description": "Not sublet or assign the premises",
+      "responsible_party": "tenant",
+      "source_text": "That the Tenant shall not sublet, assign or part with the demised premises in whole or part thereof to any person in any circumstances whatsoever"
+    },
+    {
+      "description": "Handle day-to-day minor repairs up to Rs. 1,000",
+      "responsible_party": "tenant",
+      "source_text": "the day-to-day minor repairs (up to Rs. 1,000/- per instance) will be the responsibility for the Tenant at his/her own expense"
+    },
+    {
+      "description": "Carry out structural or major repairs",
+      "responsible_party": "landlord",
+      "source_text": "Structural or major repairs shall be carried out by the Owner"
+    },
+    {
+      "description": "Not make structural alterations without written consent",
+      "responsible_party": "tenant",
+      "source_text": "no structural additions or alterations shall be made by the Tenant without the prior written consent of the Owner"
+    },
+    {
+      "description": "Comply with local authority and apartment association rules",
+      "responsible_party": "tenant",
+      "source_text": "That the Tenant shall comply with all the rules and regulations of the local authority and the Apartment Association"
+    },
+    {
+      "description": "Pay property taxes and cesses",
+      "responsible_party": "landlord",
+      "source_text": "That the Owner shall pay for all taxes/cesses (Property Tax) levied on the premises"
+    },
+    {
+      "description": "Ensure quiet possession and protect tenant from third-party claims",
+      "responsible_party": "landlord",
+      "source_text": "That the Owner will keep the Tenant free and harmless from any claims or actions by others with respect to quiet possession of the premises"
+    },
+    {
+      "description": "Give one month prior written notice for termination",
+      "responsible_party": "both",
+      "source_text": "This Rent Agreement can be terminated before the expiry of this tenancy period by serving One Month prior notice in writing by either party"
+    },
+    {
+      "description": "Maintain premises in good condition",
+      "responsible_party": "tenant",
+      "source_text": "The Tenant shall maintain the Demised Premises in good condition"
+    },
+    {
+      "description": "Hand over premises in same condition at termination",
+      "responsible_party": "tenant",
+      "source_text": "On expiry or termination, the Tenant must hand over the premises in the same condition subject to natural wear and tear"
+    },
+    {
+      "description": "Continue paying full rent during extraordinary events",
+      "responsible_party": "tenant",
+      "source_text": "the Tenant shall continue to pay the full monthly rent, maintenance, and all other charges payable under this Agreement, without demur or delay"
+    },
+    {
+      "description": "Share registration charges equally",
+      "responsible_party": "both",
+      "source_text": "charges towards stamp duty, court fee & lawyer/coordinator will be equally borne by the Owner and Tenant"
+    }
+  ],
+  "penalties": [
+    {
+      "description": "Late rent payment penalty",
+      "condition": "Delay in payment of rent beyond the 7th of the month",
+      "penalty_type": "monetary",
+      "amount": "Rs. 500/- per day",
+      "source_text": "In the event of a delay in payment of rent beyond the 7th of the month, the Tenant shall pay a penalty of Rs. 500/- per day for every day of delay until the rent is paid in full"
+    },
+    {
+      "description": "Tenant can withhold rent if security deposit not refunded",
+      "condition": "Owner fails to refund security deposit on valid termination/expiry",
+      "penalty_type": "other",
+      "amount": null,
+      "source_text": "If the Owner fails to refund the security deposit on valid termination/expiry, the Tenant is entitled to hold possession without payment of rent until the refund is made"
+    },
+    {
+      "description": "Lock-in period penalty",
+      "condition": "Tenant vacates before 6 months",
+      "penalty_type": "monetary",
+      "amount": "rent for remaining lock-in months or forfeiture from security deposit",
+      "source_text": "If the Tenant vacates the premises before the completion of 6 months, the Tenant shall be liable to pay the rent for the remaining months of the lock-in period or forfeit the equivalent amount from the Security Deposit"
+    },
+    {
+      "description": "Overstay penalty",
+      "condition": "Premises not vacated at termination",
+      "penalty_type": "monetary",
+      "amount": "2x monthly rent",
+      "source_text": "in case where the Premises are not vacated by the Tenant at the termination of the Rent period, the Tenant will pay damages calculated at two times (2x) the monthly rent for any period of occupation commencing from the expiry of the Rent period"
+    },
+    {
+      "description": "Cheque bounce penalty",
+      "condition": "Any cheque issued by tenant is dishonored by bank",
+      "penalty_type": "monetary",
+      "amount": "Rs. 1,500/- per bounced cheque plus bank charges",
+      "source_text": "In the event that any cheque issued by the Tenant towards Rent or Security Deposit is dishonored/bounced by the bank for any reason, the Tenant shall be liable to pay a flat penalty of Rs. 1,500/- per bounced cheque, in addition to the actual bank charges incurred by the Owner"
+    },
+    {
+      "description": "Painting charges deduction",
+      "condition": "Upon vacating the premises",
+      "penalty_type": "monetary",
+      "amount": "Rs. 15,000/- or actual painting cost (whichever is higher)",
+      "source_text": "Upon vacating the premises, a sum of Rs. 15,000/- (Rupees Fifteen Thousand) or the actual cost of painting (whichever is higher) shall be deducted from the Security Deposit towards fresh painting of the premises"
+    }
+  ],
+  "dates": [
+    {
+      "event_description": "Agreement execution date",
+      "date_type": "other",
+      "date_value": "2026-01-20",
+      "relative_description": null,
+      "source_text": "This RENTAL AGREEMENT is executed at Bangalore on this 20th day of January, 2026"
+    },
+    {
+      "event_description": "Lease commencement date",
+      "date_type": "lease_start",
+      "date_value": "2026-02-01",
+      "relative_description": null,
+      "source_text": "The rent in respect of the \"Demised Premises\" shall commence from 1st February 2026"
+    },
+    {
+      "event_description": "Lease end date",
+      "date_type": "lease_end",
+      "date_value": "2026-12-31",
+      "relative_description": null,
+      "source_text": "shall be valid till 31st December 2026 (11 Months)"
+    },
+    {
+      "event_description": "Monthly rent payment deadline",
+      "date_type": "payment_due",
+      "date_value": null,
+      "relative_description": "7th day of each month",
+      "source_text": "The rent shall be paid on or before the 7th day of each month without fail"
+    },
+    {
+      "event_description": "Security deposit payment date",
+      "date_type": "other",
+      "date_value": "2026-01-20",
+      "relative_description": null,
+      "source_text": "vide cheque no 456123 dated 20th January 2026 at the time of signing the Rent Agreement"
+    }
+  ],
+  "risk_flags": [
+    {
+      "risk_category": "severe_penalty",
+      "description": "Daily late payment penalty of Rs. 500 accumulates rapidly (Rs. 15,000 per month if consistently late)",
+      "confidence": "high",
+      "source_text": "the Tenant shall pay a penalty of Rs. 500/- per day for every day of delay until the rent is paid in full"
+    },
+    {
+      "risk_category": "severe_penalty",
+      "description": "Lock-in period penalty requires payment for all remaining months if vacating early within 6 months",
+      "confidence": "high",
+      "source_text": "If the Tenant vacates the premises before the completion of 6 months, the Tenant shall be liable to pay the rent for the remaining months of the lock-in period or forfeit the equivalent amount from the Security Deposit"
+    },
+    {
+      "risk_category": "severe_penalty",
+      "description": "Overstay penalty charges double rent (Rs. 50,000/month instead of Rs. 25,000)",
+      "confidence": "high",
+      "source_text": "the Tenant will pay damages calculated at two times (2x) the monthly rent for any period of occupation commencing from the expiry of the Rent period"
+    },
+    {
+      "risk_category": "unclear_terms",
+      "description": "Painting charge deduction uses 'whichever is higher' which could exceed the stated Rs. 15,000 without cap",
+      "confidence": "medium",
+      "source_text": "a sum of Rs. 15,000/- (Rupees Fifteen Thousand) or the actual cost of painting (whichever is higher) shall be deducted from the Security Deposit"
+    },
+    {
+      "risk_category": "unusual_penalty",
+      "description": "Tenant must continue paying full rent even if premises become unusable due to circumstances beyond owner's control",
+      "confidence": "high",
+      "source_text": "in the event the Demised Premises becomes partially or wholly unusable due to reasons including but not limited to government or municipal orders, sealing by statutory authorities, changes in applicable laws or zoning regulations, failure of essential infrastructure or services, decisions or actions of the Apartment Association or neighboring occupants, pandemic-related restrictions, or any other circumstance beyond the direct control of the Owner, the Tenant shall not be entitled to any reduction, suspension, waiver, or refund of rent or maintenance charges"
+    },
+    {
+      "risk_category": "ambiguous_responsibility",
+      "description": "Threshold between minor repairs (tenant responsibility up to Rs. 1,000) and major repairs (owner responsibility) may lead to disputes",
+      "confidence": "medium",
+      "source_text": "the day-to-day minor repairs (up to Rs. 1,000/- per instance) will be the responsibility for the Tenant at his/her own expense. Structural or major repairs shall be carried out by the Owner"
+    },
+    {
+      "risk_category": "unclear_terms",
+      "description": "Owner's inspection rights limited to once per month but 'prior notice' period not specified",
+      "confidence": "low",
+      "source_text": "the Owner shall hold the right to visit in person or through his authorized agent(s) to enter upon the demised premises for inspection (not exceeding once in a month) with prior notice"
+    },
+    {
+      "risk_category": "automatic_renewal",
+      "description": "Lease may be extended on mutual consent after 11 months without specifying renewal terms or rent adjustments",
+      "confidence": "medium",
+      "source_text": "Thereafter, the same may be extended further on mutual consent of both the parties"
+    }
+  ]
+}
