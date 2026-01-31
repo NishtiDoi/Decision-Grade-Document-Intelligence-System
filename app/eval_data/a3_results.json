@@ -1,0 +1,72 @@
+{
+  "test_case": "a3",
+  "obligations": {
+    "summary": {
+      "precision": 0.62,
+      "recall": 0.83,
+      "f1": 0.71
+    },
+    "correct_count": 10,
+    "hallucinations": [
+      {
+        "description": "return the fittings and fixtures in good condition, normal wear and tear excepted.",
+        "responsible_party": "tenant",
+        "source_text": "that the fittings and fixtures are in good condition and shall be returned in good condition, normal wear and tear excepted."
+      },
+      {
+        "description": "give two months\u2019 notice to terminate the tenancy.",
+        "responsible_party": "landlord",
+        "source_text": "the house owner shall also give two months\u2019 notice to terminate the tenancy."
+      },
+      {
+        "description": "not make any structural alterations without prior written consent of the house owner.",
+        "responsible_party": "tenant",
+        "source_text": "and shall not make any structural alterations without prior written consent of the house owner."
+      },
+      {
+        "description": "provide prior intimation before inspecting the premises.",
+        "responsible_party": "landlord",
+        "source_text": "that the house owner or his authorized representative shall have the right to inspect the premises at reasonable times with prior intimation."
+      },
+      {
+        "description": "not keep any pet animals in the premises.",
+        "responsible_party": "tenant",
+        "source_text": "that the tenant shall not keep any pet animals in the premises."
+      },
+      {
+        "description": "hand over all keys, fittings, electrical fixtures and the electricity board card to the house owner at the time of vacating the premises.",
+        "responsible_party": "tenant",
+        "source_text": "that the tenant shall hand over all keys, fittings, electrical fixtures and the electricity board card to the house owner at the time of vacating the premises."
+      }
+    ],
+    "omissions": [
+      {
+        "description": "pay rent on or before the 5th day of each month",
+        "responsible_party": "tenant",
+        "source_text": "payable on or before the 5th day of every succeeding month"
+      },
+      {
+        "description": "allow inspection with prior intimation",
+        "responsible_party": "tenant",
+        "source_text": "the house owner or his authorized representative shall have the right to inspect the premises at reasonable times with prior intimation"
+      }
+    ]
+  },
+  "penalties": {
+    "summary": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.67
+    },
+    "true_positives": 1,
+    "false_positives": [
+      {
+        "description": "adjustment of security deposit for outstanding charges and damages.",
+        "penalty_type": "monetary",
+        "amount": "Rent dues, electricity charges, water charges, maintenance charges and cost of damages, if any.",
+        "source_text": "the said amount shall be returned at the time of vacating the premises after adjusting rent dues, electricity charges, water charges, maintenance charges and cost of damages, if any."
+      }
+    ],
+    "omissions": []
+  }
+}

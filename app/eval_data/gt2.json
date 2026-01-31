@@ -6,6 +6,11 @@
       "source_text": "That the Tenant shall pay to the Owner a monthly rent of Rs. 25,000/- (Rupees Twenty-Five Thousand Only)"
     },
     {
+      "description": "Allow owner to inspect premises once a month with prior notice",
+      "responsible_party": "tenant",
+      "source_text": "the Owner shall hold the right to visit in person or through his authorized agent(s) to enter upon the demised premises for inspection (not exceeding once in a month) with prior notice"
+    },
+    {
       "description": "Pay rent on or before the 7th day of each month",
       "responsible_party": "tenant",
       "source_text": "The rent shall be paid on or before the 7th day of each month without fail"

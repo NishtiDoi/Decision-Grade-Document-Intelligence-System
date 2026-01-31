@@ -1,0 +1,110 @@
+{
+  "obligations": [
+    {
+      "description": "Pay monthly rent of Rs. 18,000",
+      "responsible_party": "tenant",
+      "source_text": "the rent payable by the Tenant to the House Owner shall be Rs. 18,000/- (Rupees Eighteen Thousand only) per month"
+    },
+    {
+      "description": "Pay rent on or before the 5th day of each month",
+      "responsible_party": "tenant",
+      "source_text": "payable on or before the 5th day of every succeeding month"
+    },
+    {
+      "description": "Pay maintenance charges to apartment association",
+      "responsible_party": "tenant",
+      "source_text": "in addition to maintenance charges payable to Sai Residency Apartment Association"
+    },
+    {
+      "description": "Pay electricity charges as per meter reading",
+      "responsible_party": "tenant",
+      "source_text": "the Tenant shall pay electricity charges as per meter readings directly to the Electricity Board"
+    },
+    {
+      "description": "Pay water consumption charges based on usage",
+      "responsible_party": "tenant",
+      "source_text": "Water consumption charges based on usage shall be paid by the Tenant"
+    },
+    {
+      "description": "Refund security deposit after adjusting dues",
+      "responsible_party": "landlord",
+      "source_text": "The said amount shall be returned at the time of vacating the premises after adjusting rent dues, electricity charges, water charges, maintenance charges and cost of damages"
+    },
+    {
+      "description": "Pay property tax and water tax",
+      "responsible_party": "landlord",
+      "source_text": "property tax, water tax and sewerage tax shall be paid by the House Owner"
+    },
+    {
+      "description": "Ensure minimum stay of six months",
+      "responsible_party": "tenant",
+      "source_text": "the Tenant agrees to a minimum stay of six months"
+    },
+    {
+      "description": "Give two months prior notice before vacating",
+      "responsible_party": "tenant",
+      "source_text": "The Tenant shall give two months’ prior notice before vacating the premises"
+    },
+    {
+      "description": "Not sublet or use premises for non-residential purposes",
+      "responsible_party": "tenant",
+      "source_text": "The Tenant shall not sublet or assign the premises... used strictly for residential purposes only"
+    },
+    {
+      "description": "Allow inspection with prior intimation",
+      "responsible_party": "tenant",
+      "source_text": "the House Owner or his authorized representative shall have the right to inspect the premises at reasonable times with prior intimation"
+    },
+    {
+      "description": "Not keep pet animals in the premises",
+      "responsible_party": "tenant",
+      "source_text": "the Tenant shall not keep any pet animals in the premises"
+    }
+  ],
+  "penalties": [
+    {
+      "description": "Short notice penalty",
+      "condition": "Tenant vacates without giving two months notice",
+      "penalty_type": "monetary",
+      "amount": "two months rent",
+      "source_text": "In case of shorter notice, the Tenant shall pay two months’ rent as compensation"
+    }
+  ],
+  "dates": [
+    {
+      "event_description": "Agreement execution date",
+      "date_type": "other",
+      "date_value": "2025-03-01",
+      "relative_description": null,
+      "source_text": "this 1st day of March 2025"
+    },
+    {
+      "event_description": "Lease commencement date",
+      "date_type": "lease_start",
+      "date_value": "2025-03-01",
+      "relative_description": null,
+      "source_text": "effective from 1st March 2025"
+    },
+    {
+      "event_description": "Lease end date",
+      "date_type": "lease_end",
+      "date_value": "2026-01-31",
+      "relative_description": null,
+      "source_text": "ending on 31st January 2026"
+    }
+  ],
+  "risk_flags": [
+    {
+      "risk_category": "lock_in_period",
+      "description": "Tenant is bound by a minimum stay of six months",
+      "confidence": "medium",
+      "source_text": "the Tenant agrees to a minimum stay of six months"
+    },
+    {
+      "risk_category": "financial_penalty",
+      "description": "Two months rent payable if tenant vacates without sufficient notice",
+      "confidence": "high",
+      "source_text": "In case of shorter notice, the Tenant shall pay two months’ rent as compensation"
+    }
+  ]
+}

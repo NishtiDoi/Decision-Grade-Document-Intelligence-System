@@ -1,0 +1,45 @@
+{
+  "test_case": "a2",
+  "obligations": {
+    "summary": {
+      "precision": 0.87,
+      "recall": 0.95,
+      "f1": 0.91
+    },
+    "correct_count": 20,
+    "hallucinations": [
+      {
+        "description": "pay for the use of electricity and water as per bills received from the authorities concerned directly.",
+        "responsible_party": "tenant",
+        "source_text": "that during the rent period, in addition to the rental amount payable to the owner, the tenant shall pay for the use of electricity and water as per bills received from the authorities concerned directly."
+      },
+      {
+        "description": "hold the right to visit in person or through his authorized agent(s) to enter upon the demised premises for inspection (not exceeding once in a month) with prior notice.",
+        "responsible_party": "landlord",
+        "source_text": "that the owner shall hold the right to visit in person or through his authorized agent(s) to enter upon the demised premises for inspection (not exceeding once in a month) with prior notice."
+      },
+      {
+        "description": "not claim early termination, compensation, damages, or alternative accommodation costs from the owner on account of extraordinary events.",
+        "responsible_party": "tenant",
+        "source_text": "that the tenant shall not claim early termination, compensation, damages, or alternative accommodation costs from the owner on account of such events."
+      }
+    ],
+    "omissions": [
+      {
+        "description": "allow owner to inspect premises once a month with prior notice",
+        "responsible_party": "tenant",
+        "source_text": "the owner shall hold the right to visit in person or through his authorized agent(s) to enter upon the demised premises for inspection (not exceeding once in a month) with prior notice"
+      }
+    ]
+  },
+  "penalties": {
+    "summary": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "true_positives": 6,
+    "false_positives": [],
+    "omissions": []
+  }
+}

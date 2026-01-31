@@ -1,0 +1,23 @@
+{
+  "test_case": "a1",
+  "obligations": {
+    "summary": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "correct_count": 4,
+    "hallucinations": [],
+    "omissions": []
+  },
+  "penalties": {
+    "summary": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "true_positives": 4,
+    "false_positives": [],
+    "omissions": []
+  }
+}

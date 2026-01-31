@@ -1,0 +1,54 @@
+{
+  "obligations": [
+    {
+      "description": "Pay rent of $2,000 on the 1st of each month",
+      "responsible_party": "tenant",
+      "source_text": "Tenant shall pay $2,000 on the 1st of each month"
+    },
+    {
+      "description": "Maintain heating, plumbing, and electrical systems",
+      "responsible_party": "landlord",
+      "source_text": "Landlord will maintain all major systems (heating, plumbing, electrical)"
+    },
+    {
+      "description": "Report maintenance issues within 24 hours",
+      "responsible_party": "tenant",
+      "source_text": "Tenant must report any issues within 24 hours"
+    },
+    {
+      "description": "Provide 60 days written notice for termination",
+      "responsible_party": "both",
+      "source_text": "Either party may terminate with 60 days written notice"
+    }
+  ],
+  "penalties": [
+    {
+      "description": "Late fee for rent payment",
+      "condition": "Rent paid after the 5th of the month",
+      "penalty_type": "monetary",
+      "amount": "$75",
+      "source_text": "Late payments after the 5th will incur a $75 late fee"
+    },
+    {
+      "description": "Forfeiture of security deposit",
+      "condition": "Early termination by tenant",
+      "penalty_type": "monetary",
+      "amount": "security deposit",
+      "source_text": "Early termination by Tenant will result in forfeiture of security deposit"
+    },
+    {
+      "description": "Lease termination for unauthorized pets",
+      "condition": "Having pets without consent",
+      "penalty_type": "termination",
+      "amount": null,
+      "source_text": "Unauthorized pets will result in immediate lease termination"
+    },
+    {
+      "description": "Pet cleaning fee",
+      "condition": "Unauthorized pets",
+      "penalty_type": "monetary",
+      "amount": "$500",
+      "source_text": "a $500 cleaning fee"
+    }
+  ]
+}
